@@ -62,3 +62,8 @@ file, property of the Electronic Dictionary Research and Development Group, used
 under the Group's [licence](https://www.edrdg.org/edrdg/licence.html)
 (CC BY-SA 4.0). French meanings by Alain Thierion, part of KANJIDIC2.
 Audio in `data/audio/` was generated with [gTTS](https://github.com/pndurette/gTTS).
+
+## License
+
+The code is under the [MIT License](LICENSE). The kanji data keeps its own
+licence, CC BY-SA 4.0, as stated above.
