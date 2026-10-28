@@ -3,7 +3,10 @@
 The app that helps you memorise Japanese kanji. Flexible exercises, your own
 objectives, your own pace.
 
-Status: **prototype, live at https://yeswekanji.streamlit.app/** (Streamlit Community Cloud, sleeps after 12 h idle).
+Status: **prototype, superseded.** The live app is the Google Cloud version, at
+https://yeswekanji.leonardtschora.com/ (source: [TschorAI/yeswekanji-gcp](https://github.com/TschorAI/yeswekanji-gcp)):
+BigQuery, themes generated on the fly with Vertex AI Gemini and RAG through BigQuery `VECTOR_SEARCH`,
+Cloud Run, Cloud Storage and Text-to-Speech. This repository keeps the one-day prototype.
 
 ## Run locally
 
@@ -53,7 +56,7 @@ Japanese out loud.
 
 - Data: KANJIDIC2 (EDRDG, CC BY-SA 4.0), French meanings included. ADR 0001, 0004.
 - Voice: gTTS, audio pre-generated and committed. ADR 0003.
-- Host: Streamlit Community Cloud. ADR 0005, 0006.
+- Host: Streamlit Community Cloud, then Railway; replaced by the Google Cloud version above. ADR 0005, 0006.
 
 ## Attribution
 
